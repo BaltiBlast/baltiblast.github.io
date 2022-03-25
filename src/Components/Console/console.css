@@ -1,0 +1,13 @@
+.console {
+  grid-area: second-row / second-col / second-row / last-col;
+  background-color: var(--lightGrey);
+  color: var(--white);
+  font-size: 20px;
+  overflow: auto;
+  border: solid2px white;
+  padding: 20px;
+}
+
+.console__fake-css-p {
+  margin: 5px 20px;
+}

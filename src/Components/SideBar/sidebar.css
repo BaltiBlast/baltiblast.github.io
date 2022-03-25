@@ -1,0 +1,27 @@
+.sidebar {
+  grid-area: first-row / first-col / last-row / first-col;
+  color: white;
+  background-color: var(--darkBlue);
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.sidebar__input-container {
+  text-align: center;
+}
+
+.sidebar__input-range {
+  width: 250px;
+  margin-top: 12px;
+}
+
+.sidebar__select {
+  width: 250px;
+  height: 35px;
+  border: none;
+  background-color: var(--white);
+  margin-top: 12px;
+}

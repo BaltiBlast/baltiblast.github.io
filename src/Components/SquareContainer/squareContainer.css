@@ -1,0 +1,39 @@
+.square-container {
+  grid-area: first-row / second-col / first-row / second-col;
+  overflow: auto;
+}
+
+.generated-square {
+  width: 100px;
+  height: 100px;
+  border-radius: 6px;
+  background-color: var(--red);
+  border: 5px solid var(--redAlt);
+  font-weight: 600;
+  font-size: 30px;
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+}
+
+.generated-square-input {
+  width: 30px;
+}
+
+.square-container::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  /* margin: 6px; */
+}
+
+.square-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.square-container::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: var(--white);
+}

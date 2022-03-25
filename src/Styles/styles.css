@@ -1,0 +1,21 @@
+:root {
+  --darkGrey: #202020;
+  --lightGrey: #343434;
+  --darkBlue: #1a5e63;
+  --red: #a33737;
+  --redAlt: #792525;
+  --white: #fafafa;
+}
+
+body {
+  background-color: var(--darkGrey);
+  font-family: "Titillium Web", sans-serif;
+}
+
+.app {
+  display: grid;
+  height: 100vh;
+  width: 100vw;
+  grid-template-columns: [first-col] 15% [second-col] 85% [last-col];
+  grid-template-rows: [first-row] 60% [second-row] 40% [last-row];
+}
